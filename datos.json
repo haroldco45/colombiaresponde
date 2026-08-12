@@ -1,0 +1,498 @@
+{
+  "actualizado": "2026-08-12T09:00:00-05:00",
+  "evento": {
+    "magnitud": "7,4",
+    "profundidad": "103 km",
+    "epicentro": "San José del Palmar, Chocó",
+    "fecha": "10 de agosto de 2026",
+    "hora": "07:34 a. m."
+  },
+  "cifras": [
+    {
+      "n": "239",
+      "es": "Fallecidos",
+      "en": "Deaths"
+    },
+    {
+      "n": "3.755",
+      "es": "Heridos",
+      "en": "Injured"
+    },
+    {
+      "n": "287",
+      "es": "Desaparecidos",
+      "en": "Missing"
+    }
+  ],
+  "fuenteCifras": {
+    "es": "Balance preliminar reportado por Asocapitales y el PMU de la UNGRD. Cifra provisional en actualización.",
+    "en": "Preliminary toll reported by Asocapitales and the UNGRD unified command post. Provisional and being updated."
+  },
+  "donaciones": [
+    {
+      "nombre": "Cruz Roja Colombiana",
+      "campana": "#TodosPorColombia",
+      "desc": {
+        "es": "Canal humanitario principal de la emergencia. Atiende búsqueda, rescate y ayuda directa.",
+        "en": "The main humanitarian channel for this emergency. Runs search, rescue and direct relief."
+      },
+      "datos": [
+        {
+          "k": {
+            "es": "Cuenta",
+            "en": "Account"
+          },
+          "v": "0560455069996490",
+          "nota": {
+            "es": "Cuenta Corriente Davivienda — Sociedad Nacional de la Cruz Roja Colombiana",
+            "en": "Davivienda checking account — Colombian Red Cross National Society"
+          }
+        },
+        {
+          "k": {
+            "es": "Cajeros",
+            "en": "ATMs"
+          },
+          "v": "Grupo Aval",
+          "nota": {
+            "es": "Más de 2.700 cajeros de Banco de Bogotá, Occidente, Popular y AV Villas. También por la billetera Dale.",
+            "en": "Over 2,700 ATMs at Banco de Bogotá, Occidente, Popular and AV Villas. Also via the Dale wallet."
+          }
+        }
+      ],
+      "web": "https://www.cruzrojacolombiana.org",
+      "tel": "132"
+    },
+    {
+      "nombre": "ABACO — Bancos de Alimentos de Colombia",
+      "campana": "Corredor humanitario",
+      "desc": {
+        "es": "Activó un corredor humanitario para mover alimentos y artículos esenciales a las comunidades afectadas.",
+        "en": "Opened a humanitarian corridor to move food and essential supplies to affected communities."
+      },
+      "datos": [
+        {
+          "k": {
+            "es": "NIT",
+            "en": "Tax ID"
+          },
+          "v": "900326456-1"
+        },
+        {
+          "k": {
+            "es": "Bancolombia",
+            "en": "Bancolombia"
+          },
+          "v": "04867105340",
+          "nota": {
+            "es": "Cuenta de ahorros a nombre de ABACO",
+            "en": "Savings account in ABACO's name"
+          }
+        },
+        {
+          "k": {
+            "es": "Llave Bre-B",
+            "en": "Bre-B key"
+          },
+          "v": "0090989753"
+        }
+      ]
+    },
+    {
+      "nombre": "Banco de Alimentos de Bogotá",
+      "campana": "",
+      "desc": {
+        "es": "Los recursos se canalizan a través de los bancos de alimentos de cada región afectada.",
+        "en": "Funds are channeled through the food banks of each affected region."
+      },
+      "datos": [
+        {
+          "k": {
+            "es": "Llave Bre-B",
+            "en": "Bre-B key"
+          },
+          "v": "0091677852"
+        },
+        {
+          "k": {
+            "es": "Presencial",
+            "en": "In person"
+          },
+          "v": "Calle 19 A # 32-50",
+          "nota": {
+            "es": "Bogotá",
+            "en": "Bogotá"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Fundación PLAN",
+      "campana": "Terremoto en Colombia",
+      "desc": {
+        "es": "Más de 63 años en Colombia trabajando con niñas, niños y familias en crisis humanitarias.",
+        "en": "Over 63 years in Colombia working with children and families in humanitarian crises."
+      },
+      "datos": [
+        {
+          "k": {
+            "es": "Llave Bre-B",
+            "en": "Bre-B key"
+          },
+          "v": "emergenciaterrem"
+        }
+      ]
+    },
+    {
+      "nombre": "Rappi",
+      "campana": "Sección Turbo",
+      "desc": {
+        "es": "Donación desde la app entre $20.000 y $120.000. La administra el Banco de Alimentos de Bogotá.",
+        "en": "In-app donation between COP 20,000 and 120,000, administered by the Bogotá Food Bank."
+      },
+      "datos": [
+        {
+          "k": {
+            "es": "Cómo",
+            "en": "How"
+          },
+          "v": "App > Turbo > Banco de Alimentos",
+          "copiar": false
+        }
+      ]
+    }
+  ],
+  "donarSi": {
+    "es": [
+      "Agua potable embotellada",
+      "Alimentos no perecederos sin vencer",
+      "Kits de aseo personal",
+      "Colchonetas y cobijas",
+      "Tapabocas y guantes",
+      "Comida para mascotas",
+      "Kits escolares y artículos para niños",
+      "Para rescatistas: cascos, gafas de seguridad y guantes de construcción"
+    ],
+    "en": [
+      "Bottled drinking water",
+      "Non-perishable food, not expired",
+      "Personal hygiene kits",
+      "Sleeping mats and blankets",
+      "Face masks and gloves",
+      "Pet food",
+      "School kits and children's items",
+      "For rescuers: helmets, safety goggles, work gloves"
+    ]
+  },
+  "donarNo": {
+    "es": [
+      "Ropa usada — satura las bodegas y frena la ayuda real",
+      "Alimentos vencidos o perecederos",
+      "Medicamentos sueltos o sin fórmula",
+      "Viajar por su cuenta a la zona sin coordinación",
+      "Colectas en cuentas de personas naturales"
+    ],
+    "en": [
+      "Used clothing — it clogs warehouses and slows real aid",
+      "Expired or perishable food",
+      "Loose or unprescribed medicine",
+      "Traveling to the zone on your own without coordination",
+      "Collections into personal bank accounts"
+    ]
+  },
+  "puntos": [
+    {
+      "ciudad": "Bogotá",
+      "lat": 4.6146,
+      "lng": -74.0703,
+      "nombre": "Universidad Jorge Tadeo Lozano",
+      "dir": "Carrera 4 # 22-61",
+      "que": {
+        "es": "Cruz Roja + Alcaldía Mayor. Agua, tapabocas, guantes, alimentos no perecederos, colchonetas.",
+        "en": "Red Cross + City Hall. Water, masks, gloves, non-perishable food, sleeping mats."
+      }
+    },
+    {
+      "ciudad": "Bogotá",
+      "lat": 4.6963,
+      "lng": -74.0424,
+      "nombre": "Centro Comercial Unicentro",
+      "dir": "Carrera 15 # 124-30",
+      "que": {
+        "es": "Punto oficial de la Alcaldía Mayor con la Cruz Roja.",
+        "en": "Official City Hall point with the Red Cross."
+      }
+    },
+    {
+      "ciudad": "Bogotá",
+      "lat": 4.711,
+      "lng": -74.0721,
+      "nombre": "Sede administrativa Cruz Roja",
+      "dir": "Carrera 24 # 73-38",
+      "que": {
+        "es": "Punto oficial de la Alcaldía Mayor con la Cruz Roja.",
+        "en": "Official City Hall point with the Red Cross."
+      }
+    },
+    {
+      "ciudad": "Bogotá",
+      "lat": 4.711,
+      "lng": -74.0721,
+      "nombre": "Punto Usaquén",
+      "dir": "Calle 161 A # 7F-55",
+      "que": {
+        "es": "Cuarto punto habilitado por la Alcaldía Mayor.",
+        "en": "Fourth point opened by City Hall."
+      }
+    },
+    {
+      "ciudad": "Bogotá",
+      "lat": 4.711,
+      "lng": -74.0721,
+      "nombre": "SAMU Sur — Cruz Roja",
+      "dir": "Avenida Carrera 68 # 31-41 sur",
+      "que": {
+        "es": "Seccional Cundinamarca y Bogotá.",
+        "en": "Cundinamarca & Bogotá branch."
+      }
+    },
+    {
+      "ciudad": "Bogotá",
+      "lat": 4.711,
+      "lng": -74.0721,
+      "nombre": "SAMU Norte — Cruz Roja",
+      "dir": "Calle 134 con Carrera 7B Bis # 132-31",
+      "que": {
+        "es": "Seccional Cundinamarca y Bogotá.",
+        "en": "Cundinamarca & Bogotá branch."
+      }
+    },
+    {
+      "ciudad": "Cali",
+      "lat": 3.4516,
+      "lng": -76.532,
+      "nombre": "Plazoleta Jairo Varela",
+      "dir": "Centro de Cali",
+      "que": {
+        "es": "Prioridad para rescatistas: agua, guantes de construcción, gafas de seguridad, cascos y colchonetas.",
+        "en": "Priority for rescuers: water, work gloves, safety goggles, helmets and sleeping mats."
+      }
+    },
+    {
+      "ciudad": "Cali",
+      "lat": 3.4516,
+      "lng": -76.532,
+      "nombre": "Fundación Arquidiocesana Banco de Alimentos",
+      "dir": "Cali",
+      "que": {
+        "es": "Recibe alimentos no perecederos e higiene.",
+        "en": "Receives non-perishable food and hygiene items."
+      }
+    },
+    {
+      "ciudad": "Pereira",
+      "lat": 4.8133,
+      "lng": -75.6961,
+      "nombre": "Café Consota",
+      "dir": "Manzana 7 y Manzana 8, Villa Consota, Cuba",
+      "que": {
+        "es": "Punto barrial habilitado por la Alcaldía de Pereira.",
+        "en": "Neighborhood point opened by Pereira City Hall."
+      }
+    },
+    {
+      "ciudad": "Pereira",
+      "lat": 4.8133,
+      "lng": -75.6961,
+      "nombre": "Café Perla del Otún",
+      "dir": "Diagonal a la iglesia de los 2.500 lotes",
+      "que": {
+        "es": "Punto barrial habilitado por la Alcaldía de Pereira.",
+        "en": "Neighborhood point opened by Pereira City Hall."
+      }
+    },
+    {
+      "ciudad": "Pereira",
+      "lat": 4.8133,
+      "lng": -75.6961,
+      "nombre": "Café El Remanso",
+      "dir": "Avenida principal barrio El Remanso, al lado del centro de salud",
+      "que": {
+        "es": "Punto barrial habilitado por la Alcaldía de Pereira.",
+        "en": "Neighborhood point opened by Pereira City Hall."
+      }
+    },
+    {
+      "ciudad": "Manizales",
+      "lat": 5.0689,
+      "lng": -75.5174,
+      "nombre": "Coliseo Mayor",
+      "dir": "Manizales",
+      "que": {
+        "es": "Centro de acopio y albergue temporal.",
+        "en": "Collection center and temporary shelter."
+      }
+    },
+    {
+      "ciudad": "Manizales",
+      "lat": 5.0689,
+      "lng": -75.5174,
+      "nombre": "Banco de Alimentos de Manizales",
+      "dir": "Manizales",
+      "que": {
+        "es": "Alimentos no perecederos e higiene.",
+        "en": "Non-perishable food and hygiene items."
+      }
+    },
+    {
+      "ciudad": "Armenia",
+      "lat": 4.5339,
+      "lng": -75.6811,
+      "nombre": "Banco de Alimentos Monseñor Roberto López Londoño",
+      "dir": "Armenia",
+      "que": {
+        "es": "Alimentos no perecederos e higiene.",
+        "en": "Non-perishable food and hygiene items."
+      }
+    },
+    {
+      "ciudad": "Cartagena",
+      "lat": 10.391,
+      "lng": -75.4794,
+      "nombre": "Centro de acopio distrital",
+      "dir": "Consultar canales de la Alcaldía de Cartagena",
+      "que": {
+        "es": "Dispuesto por la Alcaldía de Cartagena.",
+        "en": "Set up by Cartagena City Hall."
+      }
+    }
+  ],
+  "sangre": {
+    "requisitos": {
+      "es": [
+        "Tener entre 18 y 65 años",
+        "No ir en ayunas",
+        "Pareja sexual estable",
+        "Si tiene tatuaje o piercing, esperar 6 meses"
+      ],
+      "en": [
+        "Be between 18 and 65 years old",
+        "Do not come fasting",
+        "Stable sexual partner",
+        "If you have a tattoo or piercing, wait 6 months"
+      ]
+    }
+  },
+  "fraudes": [
+    {
+      "t": {
+        "es": "La UNGRD no tiene cuenta para donaciones",
+        "en": "UNGRD has no donation account"
+      },
+      "d": {
+        "es": "Cualquier cuenta bancaria que le presenten como “la cuenta de la UNGRD para el terremoto” es falsa. Sin excepción.",
+        "en": "Any bank account presented to you as “the UNGRD earthquake account” is fake. No exceptions."
+      }
+    },
+    {
+      "t": {
+        "es": "Bomberos de Pereira no recibe donaciones",
+        "en": "Pereira Fire Department is not receiving donations"
+      },
+      "d": {
+        "es": "La institución lo aclaró públicamente. Quien pida dinero en su nombre está suplantando.",
+        "en": "The department stated this publicly. Anyone asking for money in its name is impersonating it."
+      }
+    },
+    {
+      "t": {
+        "es": "terremotocolombia.com no es oficial",
+        "en": "terremotocolombia.com is not official"
+      },
+      "d": {
+        "es": "Circula como registro de voluntarios pero redirige a otro sitio y recoge su nombre y contacto. No lo use.",
+        "en": "It circulates as a volunteer registry but redirects elsewhere and harvests your name and contact details. Do not use it."
+      }
+    }
+  ],
+  "reglas": {
+    "es": [
+      "Nunca transfiera a una cuenta de persona natural, así conozca a quien la publica.",
+      "Verifique el NIT de la organización antes de enviar dinero.",
+      "Confirme la cuenta en el sitio web oficial de la entidad, no en una imagen de WhatsApp.",
+      "Desconfíe de la urgencia: “solo hoy”, “últimos cupos”, “antes de las 6 p. m.”.",
+      "Si le piden datos personales para donar, no es una donación."
+    ],
+    "en": [
+      "Never transfer to an individual's personal account, even if you know who posted it.",
+      "Check the organization's tax ID before sending money.",
+      "Confirm the account on the entity's official website, not in a WhatsApp image.",
+      "Distrust urgency: “today only”, “last spots”, “before 6 p.m.”.",
+      "If they ask for personal data in order to donate, it is not a donation."
+    ]
+  },
+  "oficiales": [
+    {
+      "n": "Servicio Geológico Colombiano",
+      "d": {
+        "es": "Magnitud, réplicas y boletines sísmicos oficiales.",
+        "en": "Magnitude, aftershocks and official seismic bulletins."
+      },
+      "u": "https://www.sgc.gov.co"
+    },
+    {
+      "n": "UNGRD",
+      "d": {
+        "es": "Puesto de Mando Unificado y respuesta nacional al desastre.",
+        "en": "Unified command post and national disaster response."
+      },
+      "u": "https://portal.gestiondelriesgo.gov.co"
+    },
+    {
+      "n": "Cruz Roja Colombiana",
+      "d": {
+        "es": "Rescate, ayuda humanitaria y contacto familiar.",
+        "en": "Rescue, humanitarian aid and family contact."
+      },
+      "u": "https://www.cruzrojacolombiana.org"
+    },
+    {
+      "n": "Medicina Legal",
+      "d": {
+        "es": "Única autoridad que confirma e identifica personas fallecidas.",
+        "en": "The only authority that confirms and identifies deceased persons."
+      },
+      "u": "https://www.medicinalegal.gov.co"
+    }
+  ],
+  "lineas": [
+    {
+      "n": {
+        "es": "Emergencias nacional",
+        "en": "National emergency line"
+      },
+      "t": "123"
+    },
+    {
+      "n": {
+        "es": "Cruz Roja Colombiana",
+        "en": "Colombian Red Cross"
+      },
+      "t": "132"
+    },
+    {
+      "n": {
+        "es": "Bomberos",
+        "en": "Fire department"
+      },
+      "t": "119"
+    },
+    {
+      "n": {
+        "es": "Alcaldía de Pereira",
+        "en": "Pereira City Hall"
+      },
+      "t": "6063248000"
+    }
+  ]
+}
