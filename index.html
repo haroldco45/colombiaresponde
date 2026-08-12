@@ -212,12 +212,29 @@ footer a{color:#B9C0C6}
 .offline{background:var(--alerta);color:#fff;font-family:var(--mono);font-size:11px;
   text-align:center;padding:7px;display:none}
 .offline.on{display:block}
+.frescura{display:none;font-family:var(--mono);font-size:11.5px;line-height:1.5;
+  padding:9px 16px;text-align:center;font-weight:600;letter-spacing:.02em}
+.frescura.on{display:block}
+.frescura.amarillo{background:var(--senal);color:var(--ink)}
+.frescura.rojo{background:var(--alerta);color:#fff}
+.replica{display:flex;align-items:center;gap:12px;background:var(--paper-2);
+  border:1px solid var(--linea);border-radius:10px;margin:0 14px 8px;padding:11px 14px}
+.replica .m{font-family:var(--display);font-size:26px;font-weight:700;line-height:1;
+  width:56px;flex-shrink:0;text-align:center}
+.replica .m.baja{color:var(--concreto)}
+.replica .m.media{color:#B07800}
+.replica .m.alta{color:var(--alerta)}
+.replica .d{flex:1;min-width:0}
+.replica .d b{font-family:var(--body);font-size:13.5px;font-weight:600;display:block;line-height:1.3}
+.replica .d span{font-family:var(--mono);font-size:10.5px;color:var(--concreto);letter-spacing:.03em}
+.vacio{font-size:13px;color:#6B747B;padding:0 18px 8px;font-style:italic}
 :focus-visible{outline:3px solid var(--senal);outline-offset:2px}
 </style>
 </head>
 <body>
 
 <div class="offline" id="offBar"></div>
+<div class="frescura" id="frescura"></div>
 
 <header class="hero">
   <div class="wrap">
@@ -400,6 +417,13 @@ const T = {
     web:"Sitio oficial", llamar:"Llamar", comoLlegar:"Cómo llegar",
     copiar:"Copiar", copiado:"Copiado", verificado:"Verificado", estafa:"Estafa",
     offline:"Sin conexión — mostrando la última información guardada",
+    frAmarillo:"Información de hace {t}. Confirme por teléfono antes de desplazarse.",
+    frRojo:"Sin actualizar hace {t}. Verifique en los canales oficiales antes de donar o viajar a un punto de acopio.",
+    horas:"{n} horas", dias:"{n} días", unDia:"1 día",
+    hReplicas:"Réplicas recientes",
+    hReplicasN:"Sismos de magnitud 3,0 o mayor en un radio de 300 km del epicentro, últimos 7 días. Fuente: USGS, actualizado automáticamente.",
+    sinReplicas:"No hay réplicas registradas en el periodo, o no se pudo consultar el servicio.",
+    hace:"hace", prof:"prof.",
     act:"Información actualizada el",
     pie:"Información pública recopilada de fuentes oficiales y medios que las citan. Verifique siempre en el canal oficial antes de transferir dinero.",
     habeas:"AVISO DE PRIVACIDAD — Ley 1581 de 2012. Esta aplicación no recolecta, almacena ni transmite datos personales de ninguna clase. No hay formularios, registro ni analítica. La geolocalización es opcional, se procesa únicamente en su dispositivo y no se transmite. No publicamos datos de personas heridas, fallecidas o desaparecidas: esa información corresponde exclusivamente a las autoridades competentes."
@@ -428,6 +452,13 @@ const T = {
     web:"Official site", llamar:"Call", comoLlegar:"Directions",
     copiar:"Copy", copiado:"Copied", verificado:"Verified", estafa:"Scam",
     offline:"Offline — showing the last saved information",
+    frAmarillo:"This information is {t} old. Call ahead before traveling.",
+    frRojo:"Not updated for {t}. Verify through official channels before donating or traveling to a collection point.",
+    horas:"{n} hours", dias:"{n} days", unDia:"1 day",
+    hReplicas:"Recent aftershocks",
+    hReplicasN:"Magnitude 3.0+ events within 300 km of the epicenter, last 7 days. Source: USGS, updated automatically.",
+    sinReplicas:"No aftershocks recorded in this period, or the service could not be reached.",
+    hace:"", prof:"depth",
     act:"Information updated on",
     pie:"Public information compiled from official sources and media citing them. Always verify on the official channel before transferring money.",
     habeas:"PRIVACY NOTICE — Colombian Law 1581 of 2012. This application does not collect, store or transmit personal data of any kind. There are no forms, no sign-up and no analytics. Geolocation is optional, processed only on your device, and never transmitted. We do not publish data on injured, deceased or missing persons: that information belongs exclusively to the competent authorities."
@@ -479,6 +510,46 @@ function dibujarSismo(){
     pts += `${x},${(mid - a).toFixed(1)} `;
   }
   svg.innerHTML = g + `<polyline class="trace" points="${pts.trim()}"/>`;
+}
+
+
+/* ---------- semáforo de frescura ----------
+   La app confiesa su propia edad. Si nadie actualiza datos.json,
+   avisa al usuario en vez de fingir que la información sigue vigente. */
+function renderFrescura(){
+  const el = $('frescura'), t = T[L];
+  const horas = (Date.now() - new Date(D.actualizado).getTime()) / 36e5;
+  el.className = 'frescura';
+  if(!isFinite(horas) || horas < 24) return;
+  const dias = Math.floor(horas/24);
+  const lapso = horas < 48 ? t.horas.replace('{n}', Math.floor(horas))
+              : dias === 1 ? t.unDia : t.dias.replace('{n}', dias);
+  const rojo = horas >= 72;
+  el.textContent = (rojo ? t.frRojo : t.frAmarillo).replace('{t}', lapso);
+  el.classList.add('on', rojo ? 'rojo' : 'amarillo');
+}
+
+/* ---------- réplicas (replicas.json, lo escribe un GitHub Action) ---------- */
+let REPLICAS = null;
+function bloqueReplicas(){
+  const t = T[L];
+  let h = `<div class="sec-h">${t.hReplicas}</div><p class="nota">${t.hReplicasN}</p>`;
+  if(!REPLICAS || !REPLICAS.sismos || !REPLICAS.sismos.length)
+    return h + `<p class="vacio">${t.sinReplicas}</p>`;
+  REPLICAS.sismos.slice(0,12).forEach(r=>{
+    const m = parseFloat(r.mag);
+    const cls = m >= 5 ? 'alta' : m >= 4 ? 'media' : 'baja';
+    const hrs = (Date.now() - new Date(r.fecha).getTime())/36e5;
+    const rel = hrs < 1 ? (L==='es'?'hace minutos':'minutes ago')
+              : hrs < 48 ? `${t.hace} ${Math.floor(hrs)} h${L==='en'?' ago':''}`.trim()
+              : `${t.hace} ${Math.floor(hrs/24)} d${L==='en'?' ago':''}`.trim();
+    h += `<div class="replica">
+      <div class="m ${cls}">${m.toFixed(1).replace('.', L==='es'?',':'.')}</div>
+      <div class="d"><b>${esc(r.lugar)}</b>
+      <span>${esc(rel)} · ${t.prof} ${Math.round(r.prof)} km</span></div>
+    </div>`;
+  });
+  return h;
 }
 
 /* ---------- render ---------- */
@@ -588,7 +659,7 @@ function renderSeguridad(){
 
 function renderInfo(){
   const t=T[L];
-  let h = `<div class="sec-h">${t.hApp}</div><p class="nota">${t.appTexto}</p>
+  let h = bloqueReplicas() + `<div class="sec-h">${t.hApp}</div><p class="nota">${t.appTexto}</p>
     <div class="sec-h">${t.hInstalar}</div><p class="nota">${t.instrIos}</p>
     <div class="card"><div class="acciones" style="border-top:0">
       <button class="btn fill" id="btInstall">${t.instalar}</button>
@@ -640,6 +711,7 @@ function renderTodo(){
   $('pieTexto').textContent = t.pie;
   $('habeas').textContent = t.habeas;
   $('offBar').textContent = t.offline;
+  renderFrescura();
   renderNav(); renderAyudar(); renderPuntos(); renderPersonas(); renderSeguridad(); renderInfo();
 }
 
@@ -699,6 +771,13 @@ fetch('datos.json', {cache:'no-cache'})
   .then(r => r.ok ? r.json() : Promise.reject())
   .then(j => { D = j; renderTodo(); })
   .catch(()=>{ /* corre con SEED embebido */ });
+
+fetch('replicas.json', {cache:'no-cache'})
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .then(j => { REPLICAS = j; renderInfo(); })
+  .catch(()=>{ /* la sección muestra el mensaje de "sin datos" */ });
+
+setInterval(renderFrescura, 18e5);
 
 if('serviceWorker' in navigator){
   window.addEventListener('load', ()=> navigator.serviceWorker.register('sw.js').catch(()=>{}));
