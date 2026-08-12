@@ -36,8 +36,8 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
 
-  // datos.json: siempre intenta red primero, guarda copia
-  if (url.pathname.endsWith('datos.json')) {
+  // datos.json y replicas.json: siempre red primero, con copia de respaldo
+  if (url.pathname.endsWith('datos.json') || url.pathname.endsWith('replicas.json')) {
     e.respondWith(
       fetch(req)
         .then(res => {
