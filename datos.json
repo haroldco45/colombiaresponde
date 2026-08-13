@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-12T09:00:00-05:00",
+  "actualizado": "2026-08-13T09:00:00-05:00",
   "evento": {
     "magnitud": "7,4",
     "profundidad": "103 km",
@@ -9,7 +9,7 @@
   },
   "cifras": [
     {
-      "n": "239",
+      "n": "241",
       "es": "Fallecidos",
       "en": "Deaths"
     },
