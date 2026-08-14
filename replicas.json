@@ -1,8 +1,14 @@
 {
-  "actualizado": "2026-08-13T11:39:26.496Z",
+  "actualizado": "2026-08-14T11:36:57.043Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.3,
+      "lugar": "WSW of San José del Palmar",
+      "fecha": "2026-08-13T14:42:32.192Z",
+      "prof": 106
+    },
     {
       "mag": 4.2,
       "lugar": "WNW of San José del Palmar",
