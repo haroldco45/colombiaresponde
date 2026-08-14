@@ -9,17 +9,17 @@
   },
   "cifras": [
     {
-      "n": "273",
+      "n": "281",
       "es": "Fallecidos",
       "en": "Deaths"
     },
     {
-      "n": "3.824",
+      "n": "3.971",
       "es": "Heridos",
       "en": "Injured"
     },
     {
-      "n": "377",
+      "n": "379",
       "es": "Desaparecidos",
       "en": "Missing"
     }
