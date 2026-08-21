@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-20T11:18:05.264Z",
+  "actualizado": "2026-08-21T11:17:12.919Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -8,12 +8,6 @@
       "lugar": "SSW of Bahía Solano",
       "fecha": "2026-08-19T10:07:18.554Z",
       "prof": 10
-    },
-    {
-      "mag": 4.3,
-      "lugar": "WSW of San José del Palmar",
-      "fecha": "2026-08-13T14:42:32.192Z",
-      "prof": 106
     }
   ]
 }
