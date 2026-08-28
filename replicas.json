@@ -1,8 +1,20 @@
 {
-  "actualizado": "2026-08-27T20:51:24.819Z",
+  "actualizado": "2026-08-28T21:17:12.323Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.5,
+      "lugar": "SSW of Sipí",
+      "fecha": "2026-08-27T16:21:22.987Z",
+      "prof": 64
+    },
+    {
+      "mag": 4.7,
+      "lugar": "SSW of Sipí",
+      "fecha": "2026-08-27T15:25:29.295Z",
+      "prof": 65
+    },
     {
       "mag": 4.4,
       "lugar": "SW of Sipí",
