@@ -1,8 +1,26 @@
 {
-  "actualizado": "2026-09-16T15:13:24.499Z",
+  "actualizado": "2026-09-17T15:22:17.957Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.4,
+      "lugar": "SW of Sipí",
+      "fecha": "2026-09-17T01:12:49.502Z",
+      "prof": 59
+    },
+    {
+      "mag": 4.7,
+      "lugar": "SW of Sipí",
+      "fecha": "2026-09-16T20:55:00.902Z",
+      "prof": 51
+    },
+    {
+      "mag": 5,
+      "lugar": "WSW of Sipí",
+      "fecha": "2026-09-16T20:12:52.070Z",
+      "prof": 59
+    },
     {
       "mag": 4.8,
       "lugar": "WSW of Bahía Solano",
