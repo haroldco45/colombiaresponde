@@ -1,8 +1,26 @@
 {
-  "actualizado": "2026-09-17T15:22:17.957Z",
+  "actualizado": "2026-09-18T14:42:09.217Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.4,
+      "lugar": "SW of Juradó",
+      "fecha": "2026-09-18T08:45:21.545Z",
+      "prof": 10
+    },
+    {
+      "mag": 4.7,
+      "lugar": "SSW of Sipí",
+      "fecha": "2026-09-18T06:17:03.598Z",
+      "prof": 68
+    },
+    {
+      "mag": 4.7,
+      "lugar": "SW of Sipí",
+      "fecha": "2026-09-17T21:10:25.572Z",
+      "prof": 58
+    },
     {
       "mag": 4.4,
       "lugar": "SW of Sipí",
