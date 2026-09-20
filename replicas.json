@@ -1,8 +1,20 @@
 {
-  "actualizado": "2026-09-19T14:02:48.622Z",
+  "actualizado": "2026-09-20T14:23:06.778Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.2,
+      "lugar": "S of Sipí",
+      "fecha": "2026-09-19T23:20:15.368Z",
+      "prof": 80
+    },
+    {
+      "mag": 4.8,
+      "lugar": "WSW of Sipí",
+      "fecha": "2026-09-19T13:44:35.732Z",
+      "prof": 58
+    },
     {
       "mag": 4.3,
       "lugar": "SSW of Sipí",
@@ -92,12 +104,6 @@
       "lugar": "SSW of Sipí",
       "fecha": "2026-09-14T14:57:11.569Z",
       "prof": 76
-    },
-    {
-      "mag": 4.7,
-      "lugar": "SW of Sipí",
-      "fecha": "2026-09-12T11:16:12.244Z",
-      "prof": 77
     }
   ]
 }
