@@ -1,8 +1,32 @@
 {
-  "actualizado": "2026-09-22T15:15:50.477Z",
+  "actualizado": "2026-09-23T15:13:55.445Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.3,
+      "lugar": "SSW of Roncesvalles",
+      "fecha": "2026-09-23T04:46:40.685Z",
+      "prof": 10
+    },
+    {
+      "mag": 4.4,
+      "lugar": "NNW of Rioblanco",
+      "fecha": "2026-09-23T04:36:36.514Z",
+      "prof": 10
+    },
+    {
+      "mag": 4.4,
+      "lugar": "WSW of Roncesvalles",
+      "fecha": "2026-09-22T22:12:26.733Z",
+      "prof": 10
+    },
+    {
+      "mag": 4.1,
+      "lugar": "SSW of Roncesvalles",
+      "fecha": "2026-09-22T10:38:42.183Z",
+      "prof": 10
+    },
     {
       "mag": 4.3,
       "lugar": "W of Chaparral",
