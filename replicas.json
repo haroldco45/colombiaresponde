@@ -1,8 +1,14 @@
 {
-  "actualizado": "2026-09-23T15:13:55.445Z",
+  "actualizado": "2026-09-24T15:35:34.011Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.2,
+      "lugar": "SW of Roncesvalles",
+      "fecha": "2026-09-23T09:04:13.285Z",
+      "prof": 10
+    },
     {
       "mag": 4.3,
       "lugar": "SSW of Roncesvalles",
@@ -98,30 +104,6 @@
       "lugar": "SW of Sipí",
       "fecha": "2026-09-17T01:12:49.502Z",
       "prof": 59
-    },
-    {
-      "mag": 4.7,
-      "lugar": "SW of Sipí",
-      "fecha": "2026-09-16T20:55:00.902Z",
-      "prof": 51
-    },
-    {
-      "mag": 4.9,
-      "lugar": "WSW of Sipí",
-      "fecha": "2026-09-16T20:12:52.374Z",
-      "prof": 66
-    },
-    {
-      "mag": 4.8,
-      "lugar": "WSW of Bahía Solano",
-      "fecha": "2026-09-16T07:02:13.029Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.6,
-      "lugar": "SW of Sipí",
-      "fecha": "2026-09-16T06:18:06.190Z",
-      "prof": 71
     }
   ]
 }
