@@ -1,8 +1,14 @@
 {
-  "actualizado": "2026-09-25T15:40:31.641Z",
+  "actualizado": "2026-09-26T14:48:48.674Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.6,
+      "lugar": "W of Roncesvalles",
+      "fecha": "2026-09-26T06:38:19.029Z",
+      "prof": 10
+    },
     {
       "mag": 4.5,
       "lugar": "WSW of Sipí",
@@ -20,6 +26,12 @@
       "lugar": "NNW of Rioblanco",
       "fecha": "2026-09-24T16:46:31.662Z",
       "prof": 10
+    },
+    {
+      "mag": 4.6,
+      "lugar": "S of San Antonio",
+      "fecha": "2026-09-23T20:09:44.688Z",
+      "prof": 75
     },
     {
       "mag": 4.2,
@@ -52,16 +64,16 @@
       "prof": 10
     },
     {
-      "mag": 4.3,
-      "lugar": "W of Chaparral",
-      "fecha": "2026-09-21T23:15:35.218Z",
-      "prof": 20
+      "mag": 4.4,
+      "lugar": "SSW of Roncesvalles",
+      "fecha": "2026-09-21T23:15:33.754Z",
+      "prof": 13
     },
     {
-      "mag": 4.3,
-      "lugar": "SSW of Roncesvalles",
-      "fecha": "2026-09-21T22:58:22.094Z",
-      "prof": 12
+      "mag": 4.2,
+      "lugar": "E of Roncesvalles",
+      "fecha": "2026-09-21T22:58:21.971Z",
+      "prof": 10
     },
     {
       "mag": 4.5,
@@ -92,24 +104,6 @@
       "lugar": "SSW of Sipí",
       "fecha": "2026-09-19T05:01:48.911Z",
       "prof": 74
-    },
-    {
-      "mag": 4.5,
-      "lugar": "SW of Sipí",
-      "fecha": "2026-09-18T18:41:22.677Z",
-      "prof": 73
-    },
-    {
-      "mag": 4.4,
-      "lugar": "SW of Juradó",
-      "fecha": "2026-09-18T08:45:21.545Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.7,
-      "lugar": "SSW of Sipí",
-      "fecha": "2026-09-18T06:17:03.598Z",
-      "prof": 68
     }
   ]
 }
