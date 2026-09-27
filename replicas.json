@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-26T14:48:48.674Z",
+  "actualizado": "2026-09-27T15:28:00.896Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -77,33 +77,15 @@
     },
     {
       "mag": 4.5,
-      "lugar": "SW of San Antonio",
-      "fecha": "2026-09-21T18:48:44.774Z",
+      "lugar": "SE of San Antonio",
+      "fecha": "2026-09-21T18:48:44.872Z",
       "prof": 10
     },
     {
       "mag": 4.3,
-      "lugar": "SW of Roncesvalles",
-      "fecha": "2026-09-21T16:23:20.333Z",
+      "lugar": "SSW of Roncesvalles",
+      "fecha": "2026-09-21T16:23:20.229Z",
       "prof": 10
-    },
-    {
-      "mag": 4.2,
-      "lugar": "S of Sipí",
-      "fecha": "2026-09-19T23:20:15.368Z",
-      "prof": 80
-    },
-    {
-      "mag": 4.8,
-      "lugar": "WSW of Sipí",
-      "fecha": "2026-09-19T13:44:35.732Z",
-      "prof": 58
-    },
-    {
-      "mag": 4.3,
-      "lugar": "SSW of Sipí",
-      "fecha": "2026-09-19T05:01:48.911Z",
-      "prof": 74
     }
   ]
 }
