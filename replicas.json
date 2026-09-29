@@ -1,8 +1,14 @@
 {
-  "actualizado": "2026-09-28T18:18:34.700Z",
+  "actualizado": "2026-09-29T16:41:31.909Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.3,
+      "lugar": "WNW of Chaparral",
+      "fecha": "2026-09-28T08:39:55.313Z",
+      "prof": 10
+    },
     {
       "mag": 4.6,
       "lugar": "SW of Sipí",
@@ -58,39 +64,15 @@
       "prof": 10
     },
     {
-      "mag": 4.4,
+      "mag": 4.6,
       "lugar": "WSW of Roncesvalles",
-      "fecha": "2026-09-22T22:12:26.733Z",
+      "fecha": "2026-09-22T22:12:26.626Z",
       "prof": 10
     },
     {
       "mag": 4.1,
       "lugar": "SSW of Roncesvalles",
       "fecha": "2026-09-22T10:38:42.183Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.4,
-      "lugar": "SSW of Roncesvalles",
-      "fecha": "2026-09-21T23:15:33.754Z",
-      "prof": 13
-    },
-    {
-      "mag": 4.2,
-      "lugar": "E of Roncesvalles",
-      "fecha": "2026-09-21T22:58:21.971Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.5,
-      "lugar": "SE of San Antonio",
-      "fecha": "2026-09-21T18:48:44.872Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.3,
-      "lugar": "SSW of Roncesvalles",
-      "fecha": "2026-09-21T16:23:20.229Z",
       "prof": 10
     }
   ]
