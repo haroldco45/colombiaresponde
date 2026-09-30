@@ -1,8 +1,14 @@
 {
-  "actualizado": "2026-09-29T16:41:31.909Z",
+  "actualizado": "2026-09-30T16:33:09.139Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.5,
+      "lugar": "SW of San Antonio",
+      "fecha": "2026-09-29T21:50:29.969Z",
+      "prof": 10
+    },
     {
       "mag": 4.3,
       "lugar": "WNW of Chaparral",
@@ -61,18 +67,6 @@
       "mag": 4.4,
       "lugar": "NNW of Rioblanco",
       "fecha": "2026-09-23T04:36:36.514Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.6,
-      "lugar": "WSW of Roncesvalles",
-      "fecha": "2026-09-22T22:12:26.626Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.1,
-      "lugar": "SSW of Roncesvalles",
-      "fecha": "2026-09-22T10:38:42.183Z",
       "prof": 10
     }
   ]
