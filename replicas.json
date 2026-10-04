@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-03T14:59:07.041Z",
+  "actualizado": "2026-10-04T15:33:36.896Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -20,12 +20,6 @@
       "lugar": "SW of Sipí",
       "fecha": "2026-09-27T21:57:52.827Z",
       "prof": 70
-    },
-    {
-      "mag": 4.6,
-      "lugar": "W of Roncesvalles",
-      "fecha": "2026-09-26T06:38:19.029Z",
-      "prof": 10
     }
   ]
 }
