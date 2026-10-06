@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-04T15:33:36.896Z",
+  "actualizado": "2026-10-06T16:59:59.096Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -8,18 +8,6 @@
       "lugar": "SW of San Antonio",
       "fecha": "2026-09-29T21:50:29.969Z",
       "prof": 10
-    },
-    {
-      "mag": 4.3,
-      "lugar": "WNW of Chaparral",
-      "fecha": "2026-09-28T08:39:55.313Z",
-      "prof": 10
-    },
-    {
-      "mag": 4.6,
-      "lugar": "SW of Sipí",
-      "fecha": "2026-09-27T21:57:52.827Z",
-      "prof": 70
     }
   ]
 }
