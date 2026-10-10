@@ -1,8 +1,14 @@
 {
-  "actualizado": "2026-10-09T17:14:45.872Z",
+  "actualizado": "2026-10-10T16:00:54.608Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
+    {
+      "mag": 4.5,
+      "lugar": "WSW of Filadelfia",
+      "fecha": "2026-10-10T05:45:59.396Z",
+      "prof": 115
+    },
     {
       "mag": 4.4,
       "lugar": "SW of Roncesvalles",
