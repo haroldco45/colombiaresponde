@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-17T13:59:37.400Z",
+  "actualizado": "2026-10-18T14:12:25.777Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -14,12 +14,6 @@
       "lugar": "ESE of Juradó",
       "fecha": "2026-10-16T13:02:41.211Z",
       "prof": 26
-    },
-    {
-      "mag": 4.5,
-      "lugar": "WSW of Filadelfia",
-      "fecha": "2026-10-10T05:45:59.396Z",
-      "prof": 115
     }
   ]
 }
