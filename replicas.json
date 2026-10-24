@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-23T15:32:21.424Z",
+  "actualizado": "2026-10-24T14:10:02.542Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -8,12 +8,6 @@
       "lugar": "SW of El Cerrito",
       "fecha": "2026-10-17T07:25:13.879Z",
       "prof": 154
-    },
-    {
-      "mag": 4.5,
-      "lugar": "ESE of Juradó",
-      "fecha": "2026-10-16T13:02:41.211Z",
-      "prof": 26
     }
   ]
 }
