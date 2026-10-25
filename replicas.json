@@ -1,13 +1,6 @@
 {
-  "actualizado": "2026-10-24T14:10:02.542Z",
+  "actualizado": "2026-10-25T14:40:57.281Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
-  "sismos": [
-    {
-      "mag": 4.4,
-      "lugar": "SW of El Cerrito",
-      "fecha": "2026-10-17T07:25:13.879Z",
-      "prof": 154
-    }
-  ]
+  "sismos": []
 }
