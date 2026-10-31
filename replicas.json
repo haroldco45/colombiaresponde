@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-30T16:52:38.565Z",
+  "actualizado": "2026-10-31T15:54:55.321Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
   "sismos": [
@@ -14,12 +14,6 @@
       "lugar": "SW of Sipí",
       "fecha": "2026-10-26T04:25:32.120Z",
       "prof": 84
-    },
-    {
-      "mag": 4.2,
-      "lugar": "WNW of Ituango",
-      "fecha": "2026-10-23T04:29:28.741Z",
-      "prof": 59
     }
   ]
 }
