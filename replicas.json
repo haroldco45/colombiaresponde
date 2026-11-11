@@ -1,13 +1,6 @@
 {
-  "actualizado": "2026-11-10T18:22:12.804Z",
+  "actualizado": "2026-11-11T18:12:27.557Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
-  "sismos": [
-    {
-      "mag": 5.4,
-      "lugar": "NNW of Rioblanco",
-      "fecha": "2026-11-03T09:13:14.972Z",
-      "prof": 10
-    }
-  ]
+  "sismos": []
 }
