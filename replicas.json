@@ -1,6 +1,19 @@
 {
-  "actualizado": "2026-11-13T18:17:29.844Z",
+  "actualizado": "2026-11-14T16:47:18.018Z",
   "fuente": "USGS Earthquake Hazards Program",
   "criterio": "M3+ · 300 km del epicentro · 7 días",
-  "sismos": []
+  "sismos": [
+    {
+      "mag": 4.4,
+      "lugar": "SW of Roncesvalles",
+      "fecha": "2026-11-13T20:01:41.936Z",
+      "prof": 10
+    },
+    {
+      "mag": 4.5,
+      "lugar": "WSW of Chaparral",
+      "fecha": "2026-11-13T19:43:17.748Z",
+      "prof": 10
+    }
+  ]
 }
